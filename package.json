@@ -8,7 +8,8 @@
     "start-c": "node bin/index.js -c config/i18n-ast.config.js",
     "test-program": "node bin/index.js -e t -o u -x *-*.jsx -l a,b,c -p",
     "ready": "chmod 777 ./back.sh && ./back.sh",
-    "test": "jest --color"
+    "test": "jest --color",
+    "demo": "node bin/index.js -c i18n-ast.config.js"
   },
   "author": {
     "name": "ssstone",
